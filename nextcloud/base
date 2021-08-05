@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#TODO make this run to check for credentials, and ask for it if missing.
+
+source paths
+#source ${script_root}/credentials
+source ~/credentials
+
+#sync this system with the base directories. 
+nextcloudcmd -u $user -p $password $client_root/Configs $server_root/Configs
+nextcloudcmd -u $user -p $password $client_root/Documents $server_root/Documents
+nextcloudcmd -u $user -p $password $client_root/Notes $server_root/Notes
+nextcloudcmd -u $user -p $password $client_root/Photos $server_root/Photos
+nextcloudcmd -u $user -p $password $client_root/Projects $server_root/Projects
+#TODO consider separating Projects to a dev file.
+# for now I don't fully see the need, but I want to keep things well organize
+
