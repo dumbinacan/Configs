@@ -1,0 +1,12 @@
+#!/bin/sh
+
+client_root=$HOME
+server_uri=https://storageb.in
+
+#TODO make this run to check for credentials, and ask for it if missing.
+source ~/credentials
+
+#sync this system with the base directories. 
+nextcloudcmd --path /Videos -u $user -p $password $client_root/Videos $server_uri
+nextcloudcmd --path /Music -u $user -p $password $client_root/Music $server_uri
+nextcloudcmd --path /Games -u $user -p $password $client_root/Games $server_uri

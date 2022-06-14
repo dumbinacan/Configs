@@ -9,5 +9,3 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-cnoremap wd<CR> :!mkdir -p %:h<CR>:w<CR>

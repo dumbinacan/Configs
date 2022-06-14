@@ -1,17 +1,17 @@
 #!/bin/sh
 
-#TODO make this run to check for credentials, and ask for it if missing.
+client_root=$HOME
+server_uri=https://storageb.in
 
-source paths
-#source ${script_root}/credentials
-source ~/credentials
+#TODO make this run to check for credentials, and ask for it if missing.
+source ~/.credentials
 
 #sync this system with the base directories. 
-nextcloudcmd -u $user -p $password $client_root/Configs $server_root/Configs
-nextcloudcmd -u $user -p $password $client_root/Documents $server_root/Documents
-nextcloudcmd -u $user -p $password $client_root/Notes $server_root/Notes
-nextcloudcmd -u $user -p $password $client_root/Photos $server_root/Photos
-nextcloudcmd -u $user -p $password $client_root/Projects $server_root/Projects
+nextcloudcmd --path /Configs -u $user -p $password $client_root/Configs $server_uri
+nextcloudcmd --path /Documents -u $user -p $password $client_root/Documents $server_uri
+nextcloudcmd --path /Notes -u $user -p $password $client_root/Notes $server_uri
+nextcloudcmd --path /Photos -u $user -p $password $client_root/Photos $server_uri
+nextcloudcmd --path /Projects -u $user -p $password $client_root/Projects $server_uri
 #TODO consider separating Projects to a dev file.
 # for now I don't fully see the need, but I want to keep things well organize
 

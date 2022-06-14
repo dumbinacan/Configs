@@ -1,5 +1,4 @@
 #!/bin/sh
 
 client_root=$HOME
-server_root=https://storageb.in/remote.php/webdav
-script_root=~/Configs/nextcloud
+server_uri=https://storageb.in
