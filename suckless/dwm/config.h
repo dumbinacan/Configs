@@ -74,7 +74,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,             XK_F2,      spawn,          {.v = kill_monitors } },
     { MODKEY,                       XK_F6,      setvolume,      {.i = 1 } },
     { MODKEY,                       XK_F5,      setvolume,      {.i = -1 } },
-    { MODKEY|ShiftMask,             XK_F3,      setvolume,      {.i = 0 } },
+    { MODKEY,                       XK_F3,      setvolume,      {.i = 0 } },
     { MODKEY,                       XK_b,       togglebar,      {0} },
     { MODKEY,                       XK_j,       focusstack,     {.i = +1 } },
     { MODKEY,                       XK_k,       focusstack,     {.i = -1 } },
