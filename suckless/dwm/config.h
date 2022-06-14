@@ -57,9 +57,11 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]   = { "st", NULL };
-static const char *decbright[] = { "sudo", "backlight", "-", NULL };
-static const char *incbright[] = { "sudo", "backlight", "+", NULL };
+static const char *termcmd[]   = { "urxvt", NULL };
+
+// static const char *decbright[] = { "sudo", "backlight", "-", NULL };
+// static const char *incbright[] = { "sudo", "backlight", "+", NULL };
+
 /* TODO replace kill monitor with a lock system */
 static const char *kill_monitors[] = { "xset", "dpms", "force", "off", NULL };
 
@@ -71,8 +73,6 @@ static Key keys[] = {
     { MODKEY,                       XK_equal,   setvolume,      {.i = 1 } },
     { MODKEY,                       XK_minus,   setvolume,      {.i = -1 } },
     { MODKEY|ShiftMask,             XK_minus,   setvolume,      {.i = 0 } },
-    { MODKEY,                       XK_F5,      spawn,          {.v = decbright } },
-    { MODKEY,                       XK_F6,      spawn,          {.v = incbright } },
     { MODKEY,                       XK_b,       togglebar,      {0} },
     { MODKEY,                       XK_j,       focusstack,     {.i = +1 } },
     { MODKEY,                       XK_k,       focusstack,     {.i = -1 } },
