@@ -1,29 +1,52 @@
-!!!!!!!!!!!!!!!!!!!!!!!
-!!  General Configs  !!
-!!!!!!!!!!!!!!!!!!!!!!!
+URxvt.font: xft:hack:pixelsize=21
+urxvt*termName: rxvt
+urxvt*scrollBar: false
+urxvt*matcher.button: 1
+urxvt.transparent: false
+urxvt.boldFont:
+URxvt.letterSpace: -1
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
 
-! Enable scrolling through terminal
-URxvt*scrollWithBuffer: true
+URxvt*cursorUnderline: true
+Xft*rgba: rgb
+URxvt*geometry: 85x20
+*internalBorder: 26
+URxvt*fading: 0
+URxvt*tintColor: #ffffff
+URxvt*shading: 0
+URxvt*inheritPixmap: False
 
-! Disable scrolling bar(s)
-URxvt*scrollBar: false
+! special
+*.foreground:   #f1fcf8
+*.background:   #111012
+*.cursorColor:   #f1fcf8
 
-! Makes the cursor blink
-URxvt.cursorBlink : true
-
-!!!!!!!!!!!!!
-!!  Fonts  !!
-!!!!!!!!!!!!!
-
-*.font: xft:JetBrains Mono:style=Regular:size=11:antialias=true
-*.boldFont: xft:JetBrains Mono:style=Bold:size=11:antialias=true
-URxvt.lineSpace: -1
-
-!!!!!!!!!!!!!!!!!!!!
-!!  Transparency  !!
-!!!!!!!!!!!!!!!!!!!!
-
-URxvt*transparent: true
-URxvt*shading: 30
-
-! URxvt*background: rgba:0000/0000/1111/ffff
+! black + red
+!urxvt*color0:     #3f3f3f
+urxvt*color0:      #101010
+urxvt*color1:      #705050
+! green + yellow
+urxvt*color2:      #60b48a
+urxvt*color3:      #f0dfaf
+! blue + purple
+urxvt*color4:      #506070
+urxvt*color5:      #dc8cc3
+! cyan + white
+urxvt*color6:      #8cd0d3
+urxvt*color7:      #dcdccc
+! bright-black + bright-red
+urxvt*color8:      #000000
+urxvt*color9:      #dca3a3
+! bright-green + bright-yellow
+urxvt*color10:     #c3bf9f
+urxvt*color11:     #f0dfaf
+! bright-blue + bright-purple
+urxvt*color12:     #94bff3
+urxvt*color13:     #ec93d3
+! bright-cyan + bright-white
+urxvt*color14:     #93e0e3
+urxvt*color15:     #ffffff
+!}}}
