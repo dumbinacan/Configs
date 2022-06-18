@@ -2,9 +2,6 @@
 #!/bin/sh
 #
 
-# make that terminal pretty!
-xrdb -merge .Xresources &
-
 # lets start the show!
 exec ~/.suckless/bin/slstatus &
 exec ~/.suckless/bin/dwm

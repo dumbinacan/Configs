@@ -8,5 +8,6 @@ if [ -d "$bin" ]; then
 fi
 
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+  xrdb -merge .Xresources &
   exec startx
 fi
