@@ -1,5 +1,5 @@
 # dmenu version
-VERSION = 4.9
+VERSION = 5.1
 
 # paths
 PREFIX = /home/marco/.suckless
