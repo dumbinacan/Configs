@@ -7,11 +7,11 @@ server_uri=https://storageb.in
 source ~/.credentials
 
 # TODO make variables for the local path to make more versatile
-nextcloudcmd --path /Configs -u $user -p $password $client_root/Configs $server_uri
-nextcloudcmd --path /Documents -u $user -p $password $client_root/Documents $server_uri
-nextcloudcmd --path /Notes -u $user -p $password $client_root/Notes $server_uri
-nextcloudcmd --path /Pictures -u $user -p $password $client_root/Pictures $server_uri
-nextcloudcmd --path /Projects -u $user -p $password $client_root/Projects $server_uri
+nextcloudcmd -u $user -p $password --path /Configs $client_root/Configs $server_uri
+nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $server_uri
+nextcloudcmd -u $user -p $password --path /Notes $client_root/Notes $server_uri
+nextcloudcmd -u $user -p $password --path /Pictures $client_root/Pictures $server_uri
+#nextcloudcmd -u $user -p $password --path /Projects $client_root/Projects $server_uri
 #TODO consider separating Projects to a dev file.
 # for now I don't fully see the need, but I want to keep things well organize
 
