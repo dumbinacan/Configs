@@ -9,3 +9,5 @@ set relativenumber
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+au BufNewFile,BufRead *rtorrent.rc* set filetype=rtorrent
