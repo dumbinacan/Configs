@@ -1,8 +1,0 @@
-#!/bin/sh
-
-#jetbrains fix
-#export _JAVA_AWT_WM_NONREPARENTING=1
-
-exec ~/.suckless/bin/slstatus &
-exec /usr/bin/dunst &
-exec ~/.suckless/bin/dwm
