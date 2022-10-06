@@ -2,5 +2,5 @@
 #!/bin/sh
 #
 
-ln -s xinitrc ~/.xinitrc
-ln -s bash_profile ~/.bash_profile
+ln -s $(pwd)/xinitrc ~/.xinitrc
+ln -s $(pwd)/bash_profile ~/.bash_profile

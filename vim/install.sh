@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ln -s vimrc ~/.vimrc
+ln -s $(pwd)/vimrc ~/.vimrc
