@@ -1,0 +1,2 @@
+#!/bin/bash
+nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $server_uri

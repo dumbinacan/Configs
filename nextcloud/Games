@@ -1,0 +1,2 @@
+#!/bin/bash
+nextcloudcmd --path /Games -u $user -p $password $client_root/Games $server_uri

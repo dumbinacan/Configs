@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 client_root=$HOME
 server_uri=https://storageb.in
