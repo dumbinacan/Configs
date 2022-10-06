@@ -3,7 +3,7 @@
 client_root=$HOME
 server_uri=https://storageb.in
 
-#TODO make this run to check for credentials, and ask for it if missing.
+# TODO make this run to check for credentials, and ask for it if missing.
 source ~/.credentials
 
 # TODO make variables for the local path to make more versatile
@@ -11,7 +11,7 @@ nextcloudcmd -u $user -p $password --path /Configs $client_root/Configs $server_
 nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $server_uri
 nextcloudcmd -u $user -p $password --path /Notes $client_root/Notes $server_uri
 nextcloudcmd -u $user -p $password --path /Pictures $client_root/Pictures $server_uri
-#nextcloudcmd -u $user -p $password --path /Projects $client_root/Projects $server_uri
-#TODO move Project to git
+# nextcloudcmd -u $user -p $password --path /Projects $client_root/Projects $server_uri
+# TODO move Project to git
 # for now I don't fully see the need, but I want to keep things well organize
 
