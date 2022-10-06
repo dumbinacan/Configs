@@ -12,6 +12,6 @@ nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $ser
 nextcloudcmd -u $user -p $password --path /Notes $client_root/Notes $server_uri
 nextcloudcmd -u $user -p $password --path /Pictures $client_root/Pictures $server_uri
 #nextcloudcmd -u $user -p $password --path /Projects $client_root/Projects $server_uri
-#TODO consider separating Projects to a dev file.
+#TODO move Project to git
 # for now I don't fully see the need, but I want to keep things well organize
 
