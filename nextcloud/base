@@ -19,4 +19,4 @@ source Pictures
 # source Projects
 # TODO move Project to git
 # for now I don't fully see the need, but I want to keep things well organize
-
+# I'd like to automate out the whole credentials thing so I could essentially just call a command without credentials or uri just paths... imagine an easy cli solution to quickly uploading a file
