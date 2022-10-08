@@ -1,2 +1,3 @@
 #!/bin/bash
+source ~/.credentials
 nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $server_uri

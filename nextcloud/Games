@@ -1,2 +1,3 @@
 #!/bin/bash
+source ~/.credentials
 nextcloudcmd --path /Games -u $user -p $password $client_root/Games $server_uri

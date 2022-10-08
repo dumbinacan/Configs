@@ -1,22 +1,13 @@
 #!/bin/bash
-
-client_root=$HOME
-server_uri=https://storageb.in
-
-# TODO make this run to check for credentials, and ask for it if missing.
-source ~/.credentials
-
-# TODO can I avoid source to run?
 # nextcloudcmd -u $user -p $password --path /Configs $client_root/Configs $server_uri
-source Configs
+./Configs
 # nextcloudcmd -u $user -p $password --path /Documents $client_root/Documents $server_uri
-source Documents
+./Documents
 # nextcloudcmd -u $user -p $password --path /Notes $client_root/Notes $server_uri
-source Notes
+./Notes
 # nextcloudcmd -u $user -p $password --path /Pictures $client_root/Pictures $server_uri
-source Pictures
+./Pictures
 # nextcloudcmd -u $user -p $password --path /Projects $client_root/Projects $server_uri
-# source Projects
+./Projects
 # TODO move Project to git
-# for now I don't fully see the need, but I want to keep things well organize
-# I'd like to automate out the whole credentials thing so I could essentially just call a command without credentials or uri just paths... imagine an easy cli solution to quickly uploading a file
+#      script to call these indvidually from anywhere
