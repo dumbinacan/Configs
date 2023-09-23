@@ -1,0 +1,3 @@
+#!/bin/bash
+source ~/.credentials
+nextcloudcmd --path /ups -u $user -p $password $client_root/Downloads/ups $server_uri
