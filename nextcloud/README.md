@@ -1,4 +1,5 @@
 # nextcloudcmd setup
+
 This contains code to easily set up an alias for your commandline as well as code individually update desired aliases. I can haz automation?
 
 how to use this code belongs here

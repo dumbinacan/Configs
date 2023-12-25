@@ -16,3 +16,7 @@ echo "user=$user" >> $client_root/.credentials
 echo "password=$password" >> $client_root/.credentials
 echo "client_root=$client_root" >> $client_root/.credentials
 echo "server_uri=$server_uri" >> $client_root/.credentials
+
+# minimize who can see this file
+chmod a-rwx,ug+r $client_root/.credentials
+chmod ug+x Documents Pictures Notes Configs
