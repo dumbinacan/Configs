@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ln -s $(pwd)/aliases.zsh ~/.zsh/
+ln -s $(pwd)/zshrc ~/.zshrc
 
 chmod ug+x journal.sh
 chmod ug+x cloudsave.sh

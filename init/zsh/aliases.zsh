@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 alias sudo='sudo '
 alias dd='dd status=progress'
 alias ping='ping -c3'
