@@ -27,9 +27,10 @@ PROMPT='%{$fg_bold[green]%}%~ %{$reset_color%}%{$fg[white]%}✎ %{$reset_color%}
 RPROMPT='${vcs_info_msg_0_}%'
 
 source "$HOME/.zsh/aliases.zsh"
+source "$HOME/.zsh/archlinux_extras.zsh"
 #source "$HOME/.zsh/completion.zsh"
 #source "$HOME/.zsh/edit_command_line.zsh"
-source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+#source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 #source "$HOME/.zsh/git.zsh"
 #source "$HOME/.zsh/prompt.zsh"
 #source "$HOME/.zsh/rbenv.zsh"
@@ -46,4 +47,7 @@ if [ -f "$HOME/.zsh/extras.zsh" ]; then
 fi
 
 bindkey "\E[3~" delete-char
+
+# Father forgive me for I have sinned
+# please understand that I am very lazy
 alias pacman='sudo pacman --noconfirm'

@@ -13,3 +13,4 @@
 path="$HOME/Notes/journal/$(date +"%Y")/$(date +"%m")"
 mkdir -p $path
 vim $path/$(date +"%Y-%m-%d")  && ($HOME/Configs/init/zsh/cloudsave.sh &)
+# TODO errors to log
