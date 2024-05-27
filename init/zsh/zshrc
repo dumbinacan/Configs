@@ -50,4 +50,4 @@ bindkey "\E[3~" delete-char
 
 # Father forgive me for I have sinned
 # please understand that I am very lazy
-alias pacman='sudo pacman --noconfirm'
+alias pacman='pacman --noconfirm'
