@@ -4,9 +4,11 @@ sudo pacman -S --noconfirm zsh zsh-{autosuggestions,completions,doc,history-subs
 
 # this might change
 mkdir -p ~/.zsh
+mv ~/.zshrc ~/.zshrc.bak($date)
+
 ln -s $(pwd)/aliases.zsh ~/.zsh/
 ln -s $(pwd)/archlinux_extras.zsh ~/.zsh/
-mv ~/.zshrc ~/.zshrc.bak($date)
+ln -s $(pwd)/dumb.zsh ~/.zsh/
 ln -s $(pwd)/zshrc ~/.zshrc
 
 # change to equals I've been growing anxious about repeatedly adding rights 

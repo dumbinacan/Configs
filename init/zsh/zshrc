@@ -28,6 +28,7 @@ RPROMPT='${vcs_info_msg_0_}%'
 
 source "$HOME/.zsh/aliases.zsh"
 source "$HOME/.zsh/archlinux_extras.zsh"
+source "$HOME/.zsh/dumb.zsh"
 #source "$HOME/.zsh/completion.zsh"
 #source "$HOME/.zsh/edit_command_line.zsh"
 #source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
@@ -50,4 +51,4 @@ bindkey "\E[3~" delete-char
 
 # Father forgive me for I have sinned
 # please understand that I am very lazy
-alias pacman='pacman --noconfirm'
+alias pacman='sudo pacman --noconfirm'
