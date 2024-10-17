@@ -1,0 +1,19 @@
+# GitHub
+    Host github.com
+    User dumbinacan
+    IdentityFile ~/.ssh/keys/github
+
+# self-hosted git repo
+    Host git.santana.nyc
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/forgejo
+
+# OPNsense
+    Host 10.10.12.1
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/opnsense
+
+# AUR 
+    Host aur.archlinux.org
+    User DumbInACan
+    IdentityFile ~/.ssh/keys/aur
