@@ -1,4 +1,0 @@
-#!/bin/bash
-# source ~/.credentials
-# nextcloudcmd -u $user -p $password --path /Configs $client_root/Configs $server_uri
-#  this is no longer kept in Nextcloud.. use git to keep up to date
