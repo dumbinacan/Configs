@@ -10,6 +10,9 @@
 # I want to make this update the specific file we are accessing only
 
 # path to the correct year folder 
+# TODO
+# Have journal optionally take a param to name save file and add day directory to path
+#                                                     /$(date +"%d")"
 path="$HOME/Notes/journal/$(date +"%Y")/$(date +"%m")"
 mkdir -p $path
 vim $path/$(date +"%Y-%m-%d")  && ($HOME/Configs/init/zsh/cloudsave.sh &)

@@ -10,3 +10,4 @@ alias cmatrix='neo-matrix'
 alias ssh="echo '/etc/clamav/clamd.conf has AlertPhishingSSLMismatch enabled and may cause false positives' && ssh"
 # SSH shortcuts
 alias storagebin='ssh marco@storageb.in'
+alias forgejo='ssh marco@git.santana.nyc'
