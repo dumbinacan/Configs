@@ -1,5 +1,4 @@
 #!/bin/bash
 
-ranger --copy-config=all
-mv ~/.config/ranger/rifle.conf ~/.config/ranger/rifle.conf.default
-ln -s $(pwd)/rifle.conf ~/.config/ranger/rifle.conf
+mv ~/.config/ranger/rc.conf ~/.config/ranger/rc.conf.$(date +%Y-%m-%d).bak
+ln -s $(pwd)/rc.conf ~/.config/ranger/rc.conf
