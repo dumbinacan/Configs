@@ -25,3 +25,6 @@ echo "server_uri=$server_uri" >> $client_root/.credentials
 
 # minimize who can see this file
 chmod 600 $client_root/.credentials
+
+mkdir -p ~/Notes
+mkdir -p ~/Projects # not really a part of this anymore, but it needs to be done somewhere for new install
