@@ -14,6 +14,6 @@
 # Have journal optionally take a param to name save file and add day directory to path
 #                                                     /$(date +"%d")"
 path="$HOME/Notes/journal/$(date +"%Y")/$(date +"%m")"
-mkdir -p $path
-vim $path/$(date +"%Y-%m-%d")  && ($HOME/Configs/init/zsh/cloudsave.sh &)
+mkdir -p $path                # using the nextcloud gui again.
+vim $path/$(date +"%Y-%m-%d") # && ($HOME/Configs/init/zsh/cloudsave.sh &)
 # TODO errors to log
