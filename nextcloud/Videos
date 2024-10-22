@@ -1,3 +1,0 @@
-#!/bin/bash
-source ~/.credentials
-nextcloudcmd --path /Videos -u $user -p $password $client_root/Videos $server_uri

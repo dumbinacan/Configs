@@ -1,3 +1,0 @@
-#!/bin/bash
-source ~/.credentials
-nextcloudcmd -u $user -p $password --path /Pictures $client_root/Pictures $server_uri
