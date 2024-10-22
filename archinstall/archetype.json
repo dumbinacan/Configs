@@ -325,6 +325,7 @@
         "flatpak",
         "flatpak-kcm",
         "xdg-desktop-portal",
+        "ueberzug",
         "clang",
         "go",
         "jdk-openjdk",
