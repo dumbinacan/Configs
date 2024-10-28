@@ -11,10 +11,12 @@
 
 # path to the correct year folder 
 # TODO
-# Have journal optionally take a param to name save file and add day directory to path
-#                                                     /$(date +"%d")"
-path="$HOME/Notes/journal/$(date +"%Y")/$(date +"%m")"
-filename='$(date +"%Y-%m-%d")' # future prepping for user input
+path="$HOME/Notes/journal/$(date +"%Y")/$(date +"%m")/$(date +"%d")"
+if [[ $1 ]]; then
+  filename=$1
+else
+  filename="$(date +"%Y-%m-%d")"
+fi
 mkdir -p $path
 vim $path/$filename
 # TODO
