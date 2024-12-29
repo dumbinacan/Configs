@@ -10,3 +10,4 @@ ln -s $(pwd)/aliases.zsh ~/.zsh/
 ln -s $(pwd)/archlinux_extras.zsh ~/.zsh/
 ln -s $(pwd)/dumb.zsh ~/.zsh/
 ln -s $(pwd)/zshrc ~/.zshrc
+chsh --shell /bin/zsh $USER
