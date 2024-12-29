@@ -35,3 +35,6 @@ mkdir -p ~/Notes ~/Projects
 # kdegraphics-mobipocket
 # unarchiver
 # unrar-free
+# wireguard-tools
+# kolourpaint
+# lib32-pipewire-jack lib32-pipewire-v4l2 pipewire-docs pipewire-ffado pipewire-libcamera pipewire-roc pipewire-v4l2 pipewire-x11-bell pipewire-zeroconf qemu-audio-pipewire
