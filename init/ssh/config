@@ -3,17 +3,96 @@
     User dumbinacan
     IdentityFile ~/.ssh/keys/github
 
-# self-hosted git repo
-    Host git.santana.nyc
-    User marco
-    IdentityFile ~/.ssh/keys/ourbeefyserver/forgejo
-
-# OPNsense
-    Host 10.10.12.1
-    User marco
-    IdentityFile ~/.ssh/keys/ourbeefyserver/opnsense
+# KDE GitLab
+    Host invent.kde.org
+    User dumbinacan
+    IdentityFile ~/.ssh/keys/gitlab/kde
 
 # AUR 
     Host aur.archlinux.org
     User DumbInACan
     IdentityFile ~/.ssh/keys/aur
+
+#
+## OurBeefyServer
+#
+
+# bitwarden password manager
+    Host bitwarden
+    Hostname 10.10.12.27
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/bitwarden
+
+# bluesky
+    Host bluesky
+    Hostname 10.10.12.17
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/bluesky
+
+# forgejo self-hosted git repo
+    Host forgejo
+    Hostname 10.10.12.18
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/forgejo
+
+# iptv - bigcapital.app for managing IPTV service
+    Host iptv
+    Hostname 10.10.12.24
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/iptv
+
+# jellyfin
+    Host jellyfin
+    Hostname 10.10.12.25
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/jellyfin
+
+# Matrix - selfhosted encrypted discord
+    Host matrix
+    Hostname 10.10.12.14
+#   Hostname matrix.storageb.in
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/matrix
+
+# Nginx Proxy Manager
+    Host web-proxy
+    Hostname 10.10.12.2
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/web-proxy
+
+# nextcloud
+    Host storageb-in
+    Hostname 10.10.12.15
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/storageb-in
+
+# Proxmox
+    Host proxmox
+    Hostname 10.10.12.112
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/proxmox
+
+# rustdesk
+    Host rustdesk
+    Hostname 10.10.12.212
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/rustdesk
+
+# snipe-it inventory manager
+    Host snipe-it
+    Hostname 10.10.12.23
+    User marco
+    IdentityFile ~/.ssh/keys/ourbeefyserver/snipe-it
+
+# Shhhh ARRRRRG
+    Host seedbox
+    Hostname 10.10.12.26
+    User user
+    IdentityFile ~/.ssh/keys/ourbeefyserver/seedbox
+
+# TrueNAS
+    Host truenas
+    Hostname 10.10.12.12
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/truenas
+
