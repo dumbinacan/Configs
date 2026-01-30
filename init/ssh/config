@@ -25,8 +25,8 @@
 
 # bluesky
     Host bluesky
-    Hostname 10.10.12.17
-    User marco
+    Hostname 10.10.12.14
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/bluesky
 
 # forgejo self-hosted git repo
@@ -47,17 +47,21 @@
     User marco
     IdentityFile ~/.ssh/keys/ourbeefyserver/jellyfin
 
+# LibreSpeed - speedtest client
+    Host librespeed
+    Hostname 10.10.12.11
+    User root
 # Matrix - selfhosted encrypted discord
     Host matrix
-    Hostname 10.10.12.14
-#   Hostname matrix.storageb.in
-    User marco
+    Hostname 10.10.12.13
+    User root
+
     IdentityFile ~/.ssh/keys/ourbeefyserver/matrix
 
 # Nginx Proxy Manager
     Host web-proxy
     Hostname 10.10.12.2
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/web-proxy
 
 # nextcloud
