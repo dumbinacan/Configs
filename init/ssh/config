@@ -20,7 +20,7 @@
 # bitwarden password manager
     Host bitwarden
     Hostname 10.10.12.27
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/bitwarden
 
 # bluesky
@@ -32,7 +32,7 @@
 # forgejo self-hosted git repo
     Host forgejo
     Hostname 10.10.12.18
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/forgejo
 
 # iptv - bigcapital.app for managing IPTV service
@@ -51,6 +51,8 @@
     Host librespeed
     Hostname 10.10.12.11
     User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/librespeed
+
 # Matrix - selfhosted encrypted discord
     Host matrix
     Hostname 10.10.12.13
@@ -67,7 +69,7 @@
 # nextcloud
     Host storageb-in
     Hostname 10.10.12.15
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/storageb-in
 
 # Proxmox
@@ -85,13 +87,13 @@
 # snipe-it inventory manager
     Host snipe-it
     Hostname 10.10.12.23
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/snipe-it
 
 # Shhhh ARRRRRG
     Host seedbox
-    Hostname 10.10.12.26
-    User user
+    Hostname 10.10.12.16
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/seedbox
 
 # TrueNAS
