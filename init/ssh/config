@@ -13,6 +13,9 @@
     User DumbInACan
     IdentityFile ~/.ssh/keys/aur
 
+    Host git.santana.nyc
+    User forgejo
+    IdentityFile ~/.ssh/keys/git.santana.nyc
 #
 ## OurBeefyServer
 #
@@ -46,6 +49,12 @@
     Hostname 10.10.12.25
     User marco
     IdentityFile ~/.ssh/keys/ourbeefyserver/jellyfin
+
+# L4D2 Dedicated Server
+    Host l4d2
+    Hostname 10.10.12.4
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/l4d2
 
 # LibreSpeed - speedtest client
     Host librespeed
@@ -84,11 +93,11 @@
     User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/rustdesk
 
-# snipe-it inventory manager
-    Host snipe-it
+# shelf inventory manager
+    Host shelf
     Hostname 10.10.12.23
     User root
-    IdentityFile ~/.ssh/keys/ourbeefyserver/snipe-it
+    IdentityFile ~/.ssh/keys/ourbeefyserver/shelf
 
 # Shhhh ARRRRRG
     Host seedbox
