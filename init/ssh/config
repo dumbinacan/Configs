@@ -41,7 +41,7 @@
 # iptv - bigcapital.app for managing IPTV service
     Host iptv
     Hostname 10.10.12.24
-    User marco
+    User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/iptv
 
 # jellyfin
