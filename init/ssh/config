@@ -56,11 +56,11 @@
     User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/l4d2
 
-# LibreSpeed - speedtest client
-    Host librespeed
-    Hostname 10.10.12.11
+# OpenSpeedtest - speedtest client
+    Host openspeedtest
+    Hostname 10.10.12.3
     User root
-    IdentityFile ~/.ssh/keys/ourbeefyserver/librespeed
+    IdentityFile ~/.ssh/keys/ourbeefyserver/openspeedtest
 
 # Matrix - selfhosted encrypted discord
     Host matrix
