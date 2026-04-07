@@ -20,11 +20,11 @@
 ## OurBeefyServer
 #
 
-# bitwarden password manager
-    Host bitwarden
+# vaultwarden password manager
+    Host vaultwarden
     Hostname 10.10.12.27
     User root
-    IdentityFile ~/.ssh/keys/ourbeefyserver/bitwarden
+    IdentityFile ~/.ssh/keys/ourbeefyserver/vaultwarden
 
 # bluesky
     Host bluesky
