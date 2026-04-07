@@ -1,3 +1,5 @@
+Include /Users/marco/.colima/ssh_config
+
 # GitHub
     Host github.com
     User dumbinacan
