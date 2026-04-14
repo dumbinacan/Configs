@@ -52,6 +52,12 @@ Include /Users/marco/.colima/ssh_config
     User marco
     IdentityFile ~/.ssh/keys/ourbeefyserver/jellyfin
 
+# invidious
+    Host invidious
+    Hostname 10.10.12.26
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/invidious
+
 # L4D2 Dedicated Server
     Host l4d2
     Hostname 10.10.12.4
