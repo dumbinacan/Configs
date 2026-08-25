@@ -18,6 +18,13 @@ Include /Users/marco/.colima/ssh_config
     Host git.santana.nyc
     User forgejo
     IdentityFile ~/.ssh/keys/git.santana.nyc
+
+# RackNerd VPS for OpenNIC
+    Host NewYorkNIC.net
+    Hostname 192.255.232.152
+    User marco
+    IdentityFile ~/.ssh/keys/NewYorkNIC
+
 #
 ## OurBeefyServer
 #
@@ -64,18 +71,17 @@ Include /Users/marco/.colima/ssh_config
     User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/l4d2
 
-# OpenSpeedtest - speedtest client
-    Host openspeedtest
-    Hostname 10.10.12.3
-    User root
-    IdentityFile ~/.ssh/keys/ourbeefyserver/openspeedtest
-
 # Matrix - selfhosted encrypted discord
     Host matrix
     Hostname 10.10.12.13
     User root
-
     IdentityFile ~/.ssh/keys/ourbeefyserver/matrix
+
+# Mini QR
+    Host mini-qr
+    Hostname 10.10.12.5
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/mini-qr
 
 # Nginx Proxy Manager
     Host web-proxy
@@ -88,6 +94,12 @@ Include /Users/marco/.colima/ssh_config
     Hostname 10.10.12.15
     User root
     IdentityFile ~/.ssh/keys/ourbeefyserver/storageb-in
+
+# OpenSpeedtest - speedtest client
+    Host openspeedtest
+    Hostname 10.10.12.3
+    User root
+    IdentityFile ~/.ssh/keys/ourbeefyserver/openspeedtest
 
 # Proxmox
     Host proxmox
